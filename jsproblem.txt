@@ -1,0 +1,16 @@
+You will have to take each person's info to register them. For creating their card number:
+1.take first 2 characters from the district name and make it capital letter. Example-from
+Dhaka , take DH,
+2. From current year pick last two number
+3. Concat first two numbers of the user postal number.
+4. Add user birthdate 4 digit year
+5. After that generate serial number with padding 0 in left from each user
+6. Total character length will be 16
+Create a function named ‘cardDistribution()’ which will take an array of objects. Each
+object will have each person's information. (You must use exact function name, or your
+test case may fail)
+While distributing sort data alphabetically with fist characters. Sort them with priority
+numbers. If the user has priority number 1 will be given first.
+If the last number of the card is even, give the user Red Rose , if odd give white Rose.
+R = red rose
+W = white rose
